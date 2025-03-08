@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import SocialSignIn from "../SocialSignIn";
-import Logo from "@/components/Layout/Header/Logo"
 import Loader from "@/components/Common/Loader";
 
 const Signin = () => {
@@ -46,9 +45,6 @@ const Signin = () => {
 
   return (
     <>
-      <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
-        <Logo />
-      </div>
 
       <SocialSignIn />
 

@@ -37,14 +37,9 @@ const Testimonial = () => {
         <section className='bg-cream'>
             <div id="testimonial-section" className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
                 <div className='sm:flex justify-between items-center pb-6'>
-                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">What Our Happy <br /> Students Says</h2>
-                    <div>
-                        <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-3 px-4 border border-primary hover:border-transparent rounded duration-300">
-                            Give Your Review
-                        </button>
-                    </div>
+                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900"> Students Says</h2>
                 </div>
-                <p className='text-lg font-medium pb-12'>Build skills with our courses and mentor from world-class companies.</p>
+                <p className='text-lg font-medium pb-12'>Ikut kelas gratis kami untuk jadi seperti mereka </p>
                 <Slider {...settings}>
                     {TestimonialData.map((items, i) => (
                         <div key={i}>

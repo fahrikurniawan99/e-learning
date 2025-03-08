@@ -70,10 +70,10 @@ const NamesList = () => {
         <section>
             <div id='courses-section' className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
                 <div className='sm:flex justify-between items-center pb-12'>
-                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">Popular Courses</h2>
+                    <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">Kelas populer</h2>
                     <div>
                         <button className="bg-transparent hover:bg-primary text-primary font-medium hover:text-white py-3 px-4 border border-primary hover:border-transparent rounded duration-300">
-                            Explore Classes
+                            Explore Kelas
                         </button>
                     </div>
                 </div>

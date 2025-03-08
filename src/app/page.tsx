@@ -14,9 +14,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Companies />
       <NamesList />
-      <Mentor />
       <Testimonial />
       <Newsletter />
     </main>
