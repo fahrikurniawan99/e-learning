@@ -1,7 +1,7 @@
 "use client"
 import * as React from "react";
 import { useState } from "react";
-import { CourseData } from "@/app/api/data";
+import { Course, CourseData } from "@/app/api/data";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ const NamesList = () => {
     const dataScience = CourseData.filter((name) => name.category === 'datascience');
     const cloudComputing = CourseData.filter((name) => name.category === 'cloudcomputing');
 
-    let selectedNames: Name[] = [];
+    let selectedNames: Course[] = [];
     if (selectedButton === 'mobiledevelopment') {
         selectedNames = mobileDevelopment;
     } else if (selectedButton === 'webdevelopment') {

@@ -7,7 +7,7 @@ import Testimonial from "@/components/Home/Testimonial";
 import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Si Educational",
+  title: "ELearning",
 };
 
 export default function Home() {

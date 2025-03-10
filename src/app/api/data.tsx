@@ -28,7 +28,9 @@ export const Companiesdata: { imgSrc: string }[] = [
   },
 ]
 
-export const CourseData: { course: string; imageSrc: string; profession: string; price: string; category: 'mobiledevelopment' | 'webdevelopment' | 'datascience' | 'cloudcomputing'; }[] = [
+export type Course = { course: string; imageSrc: string; profession: string; price: string; category: 'mobiledevelopment' | 'webdevelopment' | 'datascience' | 'cloudcomputing'; }
+
+export const CourseData: Course[] = [
   {
     course: 'HTML, CSS, JS',
     imageSrc: '/images/courses/coursesOne.svg',

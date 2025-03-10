@@ -16,7 +16,7 @@ const config: Config = {
         '54%': '54%',
       },
       colors: {
-        primary: "#611f69",
+        primary: "#443627",
         cream: "#FCF5EF",
         success: "#6b9f36",
         orange: "#f9cd92",
